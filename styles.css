@@ -8,5 +8,49 @@
 
 html {
     box-sizing: border-box;
-    font-size: 62.5%;
+    font-size: 62.5% auto;
+}
+
+img {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.hdr {
+    background-color: white;
+    padding: .5rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.hdr__links a {
+    font-size: 20px;
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.hdr__links li {
+    display: inline;
+}
+
+.hdr__icon {
+    font-size: 40px;
+}
+
+.hdr__icon a{
+    color:black;
+    text-decoration: none;
+}
+
+.hdr__bar {
+    color: gray;
+    font-size: 15px;
 }
